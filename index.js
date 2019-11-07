@@ -45,6 +45,8 @@ console.log('-----ปริ้นทั้งหมด-----' + JSON.stringify(da
      var tex_t = req.body.events[0].message.text
      
         //profile(reToken, sende_r); 
+     
+     postToDialogflow(req);
 
      }
         
@@ -152,3 +154,18 @@ function reply(reToken, msg, sende_r, beacon_id) {
     console.log("---data_enter---" + sende_r+"-------"+beacon_id);
 data_enter(sende_r, beacon_id);
 }
+
+const postToDialogflow = req => {
+    
+  var WebDF = "https://dialogflow.cloud.google.com/#/agent/9c6a1598-acdd-4693-929d-29ccb36a541f/webhook";
+  req.headers.host = "bots.dialogflow.com";
+  return request({
+    method: "POST",
+    uri: WebDF ,
+    headers: req.headers,
+    body: JSON.stringify(req.body)
+    
+  });
+ 
+};
+
