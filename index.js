@@ -157,7 +157,7 @@ data_enter(sende_r, beacon_id);
 
 const postToDialogflow = req => {
     
-  var WebDF = "https://dialogflow.cloud.google.com/#/agent/9c6a1598-acdd-4693-929d-29ccb36a541f/webhook";
+  var WebDF = "https://bots.dialogflow.com/line/9c6a1598-acdd-4693-929d-29ccb36a541f/webhook";
   req.headers.host = "bots.dialogflow.com";
   return request({
     method: "POST",
