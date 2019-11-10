@@ -122,7 +122,62 @@ var options = {
         reply(reToken, msg, sende_r, beacon_id);   
          }
          
-        
+        else if(beacon_id == "01344237f6"){
+         var msg = {
+           "type": "text",
+           "text": "ระบบได้บันทึกข้อมูลของคุณ "+ name + "\nเรียบร้อยแล้ว\n Beacon 3"
+          }; 
+        reply(reToken, msg, sende_r, beacon_id);   
+         }
+        else if(beacon_id == "013446ebd9"){
+         var msg = {
+           "type": "text",
+           "text": "ระบบได้บันทึกข้อมูลของคุณ "+ name + "\nเรียบร้อยแล้ว\n Beacon 4"
+          }; 
+        reply(reToken, msg, sende_r, beacon_id);   
+         }
+        else if(beacon_id == "013448341c"){
+         var msg = {
+           "type": "text",
+           "text": "ระบบได้บันทึกข้อมูลของคุณ "+ name + "\nเรียบร้อยแล้ว\n Beacon 5"
+          }; 
+        reply(reToken, msg, sende_r, beacon_id);   
+         }
+        else if(beacon_id == "01344ad82f"){
+         var msg = {
+           "type": "text",
+           "text": "ระบบได้บันทึกข้อมูลของคุณ "+ name + "\nเรียบร้อยแล้ว\n Beacon 6"
+          }; 
+        reply(reToken, msg, sende_r, beacon_id);   
+         }
+        else if(beacon_id == "01344c9149"){
+         var msg = {
+           "type": "text",
+           "text": "ระบบได้บันทึกข้อมูลของคุณ "+ name + "\nเรียบร้อยแล้ว\n Beacon 7"
+          }; 
+        reply(reToken, msg, sende_r, beacon_id);   
+         }
+        else if(beacon_id == "01344cdece"){
+         var msg = {
+           "type": "text",
+           "text": "ระบบได้บันทึกข้อมูลของคุณ "+ name + "\nเรียบร้อยแล้ว\n Beacon 8"
+          }; 
+        reply(reToken, msg, sende_r, beacon_id);   
+         }
+        else if(beacon_id == "01344dc086"){
+         var msg = {
+           "type": "text",
+           "text": "ระบบได้บันทึกข้อมูลของคุณ "+ name + "\nเรียบร้อยแล้ว\n Beacon 9"
+          }; 
+        reply(reToken, msg, sende_r, beacon_id);   
+         }
+        else if(beacon_id == "01344eddf8"){
+         var msg = {
+           "type": "text",
+           "text": "ระบบได้บันทึกข้อมูลของคุณ "+ name + "\nเรียบร้อยแล้ว\n Beacon 10"
+          }; 
+        reply(reToken, msg, sende_r, beacon_id);   
+         }
         
         
         
